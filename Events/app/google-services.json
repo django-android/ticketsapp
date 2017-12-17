@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120314442051",
+    "project_id": "events-12a58"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120314442051:android:8757a4964c5af7be",
+        "android_client_info": {
+          "package_name": "com.itechhub.datawizards.events"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120314442051-t3h4bl72si7aoviacu1siqnatr5dhldh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itechhub.datawizards.events",
+            "certificate_hash": "61e02bc8d0ace4369406e4f81d2b27065bbf1ebe"
+          }
+        },
+        {
+          "client_id": "120314442051-2nvio7fjoc6b1fsbjr2q4dgg9tijvjl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBMBE_BX22F3m43bmmW6P8jPXfM7spSRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

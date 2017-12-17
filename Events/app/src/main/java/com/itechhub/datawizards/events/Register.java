@@ -90,9 +90,9 @@ public class Register extends AppCompatActivity implements View.OnClickListener 
                 con.setRequestProperty("Accept-Language", "en-US,en;q=0.5");
                 con.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 
-                String urlParameters = "username=" + etUsername.getText().toString() +"firstname=" + etFirstName.getText().toString()
-                        + "&lastname=" + etLastName.getText().toString() + "&emailaddress=" + etEmail.getText().toString()
-                        + "password=" + etPassword.getText().toString();
+                String urlParameters = "username=" + etUsername.getText().toString() +"&first_name=" + etFirstName.getText().toString()
+                        + "&last_name=" + etLastName.getText().toString() + "&email=" + etEmail.getText().toString()
+                        + "&password=" + etPassword.getText().toString();
 
                 // Send post request
                 con.setDoOutput(true);
